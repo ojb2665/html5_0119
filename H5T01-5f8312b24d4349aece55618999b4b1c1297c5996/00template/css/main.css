@@ -1,6 +1,20 @@
+/* Grobal  Tag Style */
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    /* cursor: wait; */
+}
+
+/* My Style */
+
 #wrapper {
     width: 1000px;
     margin: 0 auto;
+    padding-bottom: 95px;
 }
 img {
     width: 100%;
@@ -11,8 +25,94 @@ img {
     font-size: 2rem;
 }
 
-#header a {
-    text-decoration: none;
-    color: black;
-    
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    background-color: #eef771;
+    padding: 10px;
+}
+#nav ul li a {
+    color: #ff0000;
+}
+
+#nav ul.menus {
+    float: left;
+}
+
+#nav ul.icons {
+    float: right;
+}
+
+#main {
+    clear: both;
+}
+
+.featured {
+    margin: 30px 0px 10px 5px;
+    padding: 10px 10px;
+}
+
+.featured header h2{
+    text-align: center;
+}
+
+#footer {
+    border-top: solid 1px #310bb9;
+    padding: 30px;
+    display: flex;
+}
+
+#footer .contact {
+    flex:1;
+}
+
+#footer .info {
+    flex:1;
+    padding: 30px;
+}
+
+#footer .contact input,
+#footer .contact label {
+    display: block;
+}
+
+#footer .contact label {
+    margin-bottom: 10px;
+}
+
+#footer .contact input {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 20px;
+}
+
+#footer .contact textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#footer .info ul {
+    list-style-type: none;
+}
+
+#footer .info ul li {
+    display: inline-block;
+}
+#copyright {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #e3e06f;
+    color: #310bb9;
+
 }
